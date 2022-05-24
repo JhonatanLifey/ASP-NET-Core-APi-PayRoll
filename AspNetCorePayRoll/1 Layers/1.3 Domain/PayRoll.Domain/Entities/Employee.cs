@@ -1,41 +1,33 @@
 ﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
 
 namespace PayRoll.Domain.Entities
 {
-    public class Employee
+    public partial class Employee
     {
-
-        public int company_ID { get; set; }
-        public int afp_ID { get; set; }
-        public int employee_ID { get; set; }
-        public int Rol_Id { get; set; }
-        public int KindPayRoll { get; set; }
-        public int Place_ID { get; set; }
-
-
-        public string employee_CODE { get; set; }
-        public string employee_Active { get; set; }
-        public string employee_Name { get; set; }
-        public string employee_Middle { get; set; }
-        public string employee_Surname { get; set; }
-
-
-        public DateTime employee_DateStart { get; set; }
-        public DateTime employee_DateEnd { get; set; }
-        public DateTime employee_BirthDate { get; set; }
-
-
-        public string employee_Address { get; set; }
-        public string employee_Suburd { get; set; }
-        public string employee_State { get; set; }
-        public string employee_CodePost { get; set; }
-
-        
-        public decimal employee_Salary { get; set; }
-        public string employee_KindAFPSNP { get; set; }
-        public string employee_numberAFP { get; set; }
-        public string employee_IndAsigFamiliar { get; set; }
-
-
+        public int CompanyId { get; set; }
+        public int? AfpId { get; set; }
+        public int EmployeeId { get; set; }
+        public int? RolId { get; set; }
+        public int? KindPayRoll { get; set; }
+        public int? PlaceId { get; set; }
+        public string EmployeeCode { get; set; }
+        public string EmployeeActive { get; set; }
+        public string EmployeeName { get; set; }
+        public string EmployeeMiddle { get; set; }
+        public string EmployeeSurname { get; set; }
+        public DateTime EmployeeDateStart { get; set; }
+        public DateTime? EmployeeDateEnd { get; set; }
+        public DateTime EmployeeBirthDate { get; set; }
+        public string EmployeeAddress { get; set; }
+        public string EmployeeSuburd { get; set; }
+        public string EmployeeState { get; set; }
+        public string EmployeeCodePost { get; set; }
+        public decimal EmployeeSalary { get; set; }
+        public string EmployeeKindAfpsnp { get; set; }
+        public string EmployeeNumberAfp { get; set; }
+        public string EmployeeIndAsigFamiliar { get; set; }
     }
 }

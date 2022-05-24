@@ -20,13 +20,21 @@ namespace PayRoll.Persistence.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<PayRollEmployee>> GetEmployees() 
+        public async Task<IEnumerable<Employee>> GetEmployees() 
         {
 
-            var employee = await _context.PayRollEmployees.ToListAsync();
+            var employees = await _context.Employees.ToListAsync();
             
-            return employee;
+            return employees;
         }
 
+
+        public async Task<Employee> GetEmployeeByID(int id)
+        {
+
+            var employee = await _context.Employees.FirstOrDefaultAsync(x => x.EmployeeId == id);
+
+            return employee;
+        }
     }
 }

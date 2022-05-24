@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace PayRoll.Domain.Entities
 {
-    public partial class PayRollAfp
+    public partial class Afp
     {
         public int AfpId { get; set; }
         public string AfpName { get; set; }

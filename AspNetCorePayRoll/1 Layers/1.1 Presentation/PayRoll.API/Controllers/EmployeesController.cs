@@ -28,5 +28,13 @@ namespace PayRoll.API.Controllers
 
             return Ok(employee);
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetEmployeeByID(int id)
+        {
+            var employee = await _employeeRepository.GetEmployeeByID(id);
+
+            return Ok(employee);
+        }
     }
 }

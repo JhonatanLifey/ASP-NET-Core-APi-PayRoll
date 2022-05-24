@@ -10,9 +10,14 @@ namespace PayRoll.Persistence.Repositories
 {
     public class EmployeeMongoRepository : IEmployeeRepository
     {
-        public async Task<IEnumerable<PayRollEmployee>> GetEmployees()
+        public Task<Employee> GetEmployeeByID(int id)
         {
-            var employee = Enumerable.Range(1, 10).Select(x => new PayRollEmployee
+            throw new NotImplementedException();
+        }
+
+        public async Task<IEnumerable<Employee>> GetEmployees()
+        {
+            var employee = Enumerable.Range(1, 10).Select(x => new Employee
             {
                 EmployeeId = x,
                 EmployeeName = $" Name MongoDB {x}",

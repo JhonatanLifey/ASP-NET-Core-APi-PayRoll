@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using PayRoll.Domain.Entities;
+using PayRoll.Persistence.Data.Configurations;
 
 #nullable disable
 
@@ -20,12 +21,12 @@ namespace PayRoll.Persistence.Data
 
         public virtual DbSet<BudgetCcosto> BudgetCcostos { get; set; }
         public virtual DbSet<MasterCompany> MasterCompanies { get; set; }
-        public virtual DbSet<PayRollAfp> PayRollAfps { get; set; }
-        public virtual DbSet<PayRollAfpdetail> PayRollAfpdetails { get; set; }
+        public virtual DbSet<Afp> PayRollAfps { get; set; }
+        public virtual DbSet<AfpDetail> PayRollAfpdetails { get; set; }
         public virtual DbSet<PayRollCalculate> PayRollCalculates { get; set; }
         public virtual DbSet<PayRollCloseFrequency> PayRollCloseFrequencies { get; set; }
         public virtual DbSet<PayRollCloseMonthly> PayRollCloseMonthlies { get; set; }
-        public virtual DbSet<PayRollEmployee> PayRollEmployees { get; set; }
+        public virtual DbSet<Employee> Employees { get; set; }
         public virtual DbSet<PayRollFormula> PayRollFormulas { get; set; }
         public virtual DbSet<PayRollFormulaDetail> PayRollFormulaDetails { get; set; }
         public virtual DbSet<PayRollHoliday> PayRollHolidays { get; set; }
@@ -92,7 +93,7 @@ namespace PayRoll.Persistence.Data
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<PayRollAfp>(entity =>
+            modelBuilder.Entity<Afp>(entity =>
             {
                 entity.HasKey(e => e.AfpId);
 
@@ -116,7 +117,7 @@ namespace PayRoll.Persistence.Data
                     .HasColumnName("afp_Status");
             });
 
-            modelBuilder.Entity<PayRollAfpdetail>(entity =>
+            modelBuilder.Entity<AfpDetail>(entity =>
             {
                 entity.HasKey(e => new { e.AfpId, e.AfpYear, e.AfpMonth });
 
@@ -255,103 +256,7 @@ namespace PayRoll.Persistence.Data
                     .HasColumnName("CloseM_Status");
             });
 
-            modelBuilder.Entity<PayRollEmployee>(entity =>
-            {
-                entity.HasKey(e => e.EmployeeId);
-
-                entity.ToTable("PayRoll_Employees");
-
-                entity.Property(e => e.EmployeeId).HasColumnName("employee_ID");
-
-                entity.Property(e => e.AfpId).HasColumnName("afp_ID");
-
-                entity.Property(e => e.CompanyId).HasColumnName("company_ID");
-
-                entity.Property(e => e.EmployeeActive)
-                    .IsRequired()
-                    .HasMaxLength(2)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_Active");
-
-                entity.Property(e => e.EmployeeAddress)
-                    .HasMaxLength(250)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_Address");
-
-                entity.Property(e => e.EmployeeBirthDate)
-                    .HasColumnType("date")
-                    .HasColumnName("employee_BirthDate");
-
-                entity.Property(e => e.EmployeeCode)
-                    .HasMaxLength(6)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_CODE");
-
-                entity.Property(e => e.EmployeeCodePost)
-                    .HasMaxLength(10)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_CodePost");
-
-                entity.Property(e => e.EmployeeDateEnd)
-                    .HasColumnType("date")
-                    .HasColumnName("employee_DateEnd");
-
-                entity.Property(e => e.EmployeeDateStart)
-                    .HasColumnType("date")
-                    .HasColumnName("employee_DateStart");
-
-                entity.Property(e => e.EmployeeIndAsigFamiliar)
-                    .HasMaxLength(1)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_IndAsigFamiliar");
-
-                entity.Property(e => e.EmployeeKindAfpsnp)
-                    .IsRequired()
-                    .HasMaxLength(2)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_KindAFPSNP");
-
-                entity.Property(e => e.EmployeeMiddle)
-                    .IsRequired()
-                    .HasMaxLength(150)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_Middle");
-
-                entity.Property(e => e.EmployeeName)
-                    .IsRequired()
-                    .HasMaxLength(100)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_Name");
-
-                entity.Property(e => e.EmployeeNumberAfp)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_numberAFP");
-
-                entity.Property(e => e.EmployeeSalary)
-                    .HasColumnType("decimal(18, 2)")
-                    .HasColumnName("employee_Salary");
-
-                entity.Property(e => e.EmployeeState)
-                    .HasMaxLength(10)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_State");
-
-                entity.Property(e => e.EmployeeSuburd)
-                    .HasMaxLength(250)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_Suburd");
-
-                entity.Property(e => e.EmployeeSurname)
-                    .IsRequired()
-                    .HasMaxLength(150)
-                    .IsUnicode(false)
-                    .HasColumnName("employee_Surname");
-
-                entity.Property(e => e.PlaceId).HasColumnName("Place_ID");
-
-                entity.Property(e => e.RolId).HasColumnName("Rol_Id");
-            });
+            modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
 
             modelBuilder.Entity<PayRollFormula>(entity =>
             {
