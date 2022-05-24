@@ -10,13 +10,13 @@ namespace PayRoll.Persistence.Repositories
 {
     public class EmployeeMongoRepository : IEmployeeRepository
     {
-        public async Task<IEnumerable<Employee>> GetEmployees()
+        public async Task<IEnumerable<PayRollEmployee>> GetEmployees()
         {
-            var employee = Enumerable.Range(1, 10).Select(x => new Employee
+            var employee = Enumerable.Range(1, 10).Select(x => new PayRollEmployee
             {
-                employee_ID = x,
-                employee_Name = $" Name MongoDB {x}",
-                employee_DateStart = DateTime.Now
+                EmployeeId = x,
+                EmployeeName = $" Name MongoDB {x}",
+                EmployeeDateStart = DateTime.Now
             });
 
             await Task.Delay(10);

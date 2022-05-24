@@ -10,7 +10,7 @@ namespace PayRoll.Domain.Interfaces
     public interface IEmployeeRepository
     {
 
-        Task<IEnumerable<Employee>> GetEmployees();
+        Task<IEnumerable<PayRollEmployee>> GetEmployees();
 
     }
 }

@@ -1,5 +1,7 @@
-﻿using PayRoll.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using PayRoll.Domain.Entities;
 using PayRoll.Domain.Interfaces;
+using PayRoll.Persistence.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,20 +11,20 @@ using System.Threading.Tasks;
 namespace PayRoll.Persistence.Repositories
 {
     public class EmployeeRepository: IEmployeeRepository
-
     {
-        public async Task<IEnumerable<Employee>> GetEmployees() 
+
+        private readonly DB_PayRollContext _context;
+
+        public EmployeeRepository(DB_PayRollContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<IEnumerable<PayRollEmployee>> GetEmployees() 
         {
 
-            var employee = Enumerable.Range(1, 10).Select(x => new Employee
-            {
-                employee_ID = x,
-                employee_Name = $" Name {x}",
-                employee_DateStart = DateTime.Now
-            });
-
-            await Task.Delay(10);
-
+            var employee = await _context.PayRollEmployees.ToListAsync();
+            
             return employee;
         }
 
