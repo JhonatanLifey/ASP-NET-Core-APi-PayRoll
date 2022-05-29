@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "oNhdVaSw+G96KenVxPKXcgvAbfrOwhgfxDrrGfbeoOBLzrPslnW9N2wG9b0Sf1VYULdEnLceIDlIM39KrMNx8w==",
+  "dgSpecHash": "WKpQFn77GQyTdB8pEdITwOP4u+WM7SSRXXmUQZ7oHtgPw5Ro67towpSp4dGbELRxc5tprWzhrlIltywoiUqsag==",
   "success": true,
   "projectFilePath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\PayRoll.Infrastructure\\PayRoll.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jhona\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

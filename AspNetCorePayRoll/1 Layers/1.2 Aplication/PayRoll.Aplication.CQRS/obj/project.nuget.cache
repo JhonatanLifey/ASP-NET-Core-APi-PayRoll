@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ctF3VwHH07xcqiVwX9vsxsuGFK7iiCfJ+QyZMn7cOxz/n/TNYqfGxTD/yThCkQ8iGkLTRuKd8FDFTwSbPI8wQ==",
+  "success": true,
+  "projectFilePath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.CQRS\\PayRoll.Aplication.CQRS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jhona\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\fluentvalidation\\11.0.2\\fluentvalidation.11.0.2.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

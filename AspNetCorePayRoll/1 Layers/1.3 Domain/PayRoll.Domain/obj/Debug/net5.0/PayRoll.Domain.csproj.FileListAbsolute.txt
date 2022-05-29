@@ -1,12 +1,11 @@
-F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.csproj.AssemblyReference.cache
-F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.GeneratedMSBuildEditorConfig.editorconfig
-F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.AssemblyInfoInputs.cache
-F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.AssemblyInfo.cs
-F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.csproj.CoreCompileInputs.cache
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\bin\Debug\net5.0\PayRoll.Domain.deps.json
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\bin\Debug\net5.0\PayRoll.Domain.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\bin\Debug\net5.0\ref\PayRoll.Domain.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\bin\Debug\net5.0\PayRoll.Domain.pdb
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.AssemblyInfoInputs.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.AssemblyInfo.cs
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.csproj.CoreCompileInputs.cache
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\ref\PayRoll.Domain.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.3 Domain\PayRoll.Domain\obj\Debug\net5.0\PayRoll.Domain.pdb

@@ -2,7 +2,6 @@ F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\P
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\PayRoll.Aplication.DTO.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\ref\PayRoll.Aplication.DTO.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\PayRoll.Aplication.DTO.pdb
-F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.DTO.csproj.AssemblyReference.cache
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.DTO.GeneratedMSBuildEditorConfig.editorconfig
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.DTO.AssemblyInfoInputs.cache
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.DTO.AssemblyInfo.cs

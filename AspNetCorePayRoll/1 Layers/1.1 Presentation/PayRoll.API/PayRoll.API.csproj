@@ -13,10 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\1.2 Aplication\PayRoll.Aplication.CQRS\PayRoll.Aplication.CQRS.csproj" />
     <ProjectReference Include="..\..\1.2 Aplication\PayRoll.Aplication.DTO\PayRoll.Aplication.DTO.csproj" />
-    <ProjectReference Include="..\..\1.3 Domain\PayRoll.Domain\PayRoll.Domain.csproj" />
     <ProjectReference Include="..\..\1.4 Persistence\PayRoll.Persistence\PayRoll.Persistence.csproj" />
-    <ProjectReference Include="..\..\1.5 Infrastructure\PayRoll.Infrastructure\PayRoll.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

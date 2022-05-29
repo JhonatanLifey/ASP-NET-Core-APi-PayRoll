@@ -1,11 +1,13 @@
-﻿using System;
+﻿using PayRoll.Domain.Common;
+using System;
 using System.Collections.Generic;
 
 #nullable disable
 
 namespace PayRoll.Domain.Entities
 {
-    public partial class Employee
+    public partial class Employee: EntityBase
+
     {
         public int CompanyId { get; set; }
         public int? AfpId { get; set; }

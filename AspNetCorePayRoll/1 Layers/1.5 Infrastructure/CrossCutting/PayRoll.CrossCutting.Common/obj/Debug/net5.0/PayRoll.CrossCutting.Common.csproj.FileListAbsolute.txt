@@ -1,0 +1,11 @@
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\bin\Debug\net5.0\PayRoll.CrossCutting.Common.deps.json
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\bin\Debug\net5.0\PayRoll.CrossCutting.Common.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\bin\Debug\net5.0\ref\PayRoll.CrossCutting.Common.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\bin\Debug\net5.0\PayRoll.CrossCutting.Common.pdb
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\obj\Debug\net5.0\PayRoll.CrossCutting.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\obj\Debug\net5.0\PayRoll.CrossCutting.Common.AssemblyInfoInputs.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\obj\Debug\net5.0\PayRoll.CrossCutting.Common.AssemblyInfo.cs
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\obj\Debug\net5.0\PayRoll.CrossCutting.Common.csproj.CoreCompileInputs.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\obj\Debug\net5.0\PayRoll.CrossCutting.Common.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\obj\Debug\net5.0\ref\PayRoll.CrossCutting.Common.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Common\obj\Debug\net5.0\PayRoll.CrossCutting.Common.pdb

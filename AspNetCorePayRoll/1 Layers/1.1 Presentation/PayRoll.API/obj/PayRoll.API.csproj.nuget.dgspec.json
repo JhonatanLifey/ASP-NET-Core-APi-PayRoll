@@ -31,17 +31,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.CQRS\\PayRoll.Aplication.CQRS.csproj": {
+                "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.CQRS\\PayRoll.Aplication.CQRS.csproj"
+              },
               "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.DTO\\PayRoll.Aplication.DTO.csproj": {
                 "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.DTO\\PayRoll.Aplication.DTO.csproj"
               },
-              "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.3 Domain\\PayRoll.Domain\\PayRoll.Domain.csproj": {
-                "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.3 Domain\\PayRoll.Domain\\PayRoll.Domain.csproj"
-              },
               "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.4 Persistence\\PayRoll.Persistence\\PayRoll.Persistence.csproj": {
                 "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.4 Persistence\\PayRoll.Persistence\\PayRoll.Persistence.csproj"
-              },
-              "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\PayRoll.Infrastructure\\PayRoll.Infrastructure.csproj": {
-                "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\PayRoll.Infrastructure\\PayRoll.Infrastructure.csproj"
               }
             }
           }
@@ -81,6 +78,91 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.CQRS\\PayRoll.Aplication.CQRS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.CQRS\\PayRoll.Aplication.CQRS.csproj",
+        "projectName": "PayRoll.Aplication.CQRS",
+        "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.CQRS\\PayRoll.Aplication.CQRS.csproj",
+        "packagesPath": "C:\\Users\\jhona\\.nuget\\packages\\",
+        "outputPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.CQRS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jhona\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.DTO\\PayRoll.Aplication.DTO.csproj": {
+                "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.2 Aplication\\PayRoll.Aplication.DTO\\PayRoll.Aplication.DTO.csproj"
+              },
+              "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.3 Domain\\PayRoll.Domain\\PayRoll.Domain.csproj": {
+                "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.3 Domain\\PayRoll.Domain\\PayRoll.Domain.csproj"
+              },
+              "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\CrossCutting\\PayRoll.CrossCutting.Common\\PayRoll.CrossCutting.Common.csproj": {
+                "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\CrossCutting\\PayRoll.CrossCutting.Common\\PayRoll.CrossCutting.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -276,14 +358,14 @@
         }
       }
     },
-    "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\PayRoll.Infrastructure\\PayRoll.Infrastructure.csproj": {
+    "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\CrossCutting\\PayRoll.CrossCutting.Common\\PayRoll.CrossCutting.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\PayRoll.Infrastructure\\PayRoll.Infrastructure.csproj",
-        "projectName": "PayRoll.Infrastructure",
-        "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\PayRoll.Infrastructure\\PayRoll.Infrastructure.csproj",
+        "projectUniqueName": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\CrossCutting\\PayRoll.CrossCutting.Common\\PayRoll.CrossCutting.Common.csproj",
+        "projectName": "PayRoll.CrossCutting.Common",
+        "projectPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\CrossCutting\\PayRoll.CrossCutting.Common\\PayRoll.CrossCutting.Common.csproj",
         "packagesPath": "C:\\Users\\jhona\\.nuget\\packages\\",
-        "outputPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\PayRoll.Infrastructure\\obj\\",
+        "outputPath": "F:\\Hp\\D\\Programmer\\Integrado\\PayRoll\\AspNetCorePayRoll\\1 Layers\\1.5 Infrastructure\\CrossCutting\\PayRoll.CrossCutting.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,12 @@
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\bin\Debug\net5.0\PayRoll.CrossCutting.Security.deps.json
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\bin\Debug\net5.0\PayRoll.CrossCutting.Security.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\bin\Debug\net5.0\ref\PayRoll.CrossCutting.Security.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\bin\Debug\net5.0\PayRoll.CrossCutting.Security.pdb
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\obj\Debug\net5.0\PayRoll.CrossCutting.Security.csproj.AssemblyReference.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\obj\Debug\net5.0\PayRoll.CrossCutting.Security.GeneratedMSBuildEditorConfig.editorconfig
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\obj\Debug\net5.0\PayRoll.CrossCutting.Security.AssemblyInfoInputs.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\obj\Debug\net5.0\PayRoll.CrossCutting.Security.AssemblyInfo.cs
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\obj\Debug\net5.0\PayRoll.CrossCutting.Security.csproj.CoreCompileInputs.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\obj\Debug\net5.0\PayRoll.CrossCutting.Security.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\obj\Debug\net5.0\ref\PayRoll.CrossCutting.Security.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Security\obj\Debug\net5.0\PayRoll.CrossCutting.Security.pdb

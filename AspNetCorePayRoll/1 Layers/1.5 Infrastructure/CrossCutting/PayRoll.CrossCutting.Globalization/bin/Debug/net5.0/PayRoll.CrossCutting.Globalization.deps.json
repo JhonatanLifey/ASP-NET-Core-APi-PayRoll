@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PayRoll.CrossCutting.Globalization/1.0.0": {
+        "runtime": {
+          "PayRoll.CrossCutting.Globalization.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PayRoll.CrossCutting.Globalization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

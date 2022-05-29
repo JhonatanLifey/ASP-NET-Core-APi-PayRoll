@@ -1,0 +1,15 @@
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\PayRoll.Aplication.deps.json
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\PayRoll.Aplication.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\ref\PayRoll.Aplication.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\PayRoll.Aplication.pdb
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\PayRoll.Domain.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\bin\Debug\net5.0\PayRoll.Domain.pdb
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.csproj.AssemblyReference.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.AssemblyInfoInputs.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.AssemblyInfo.cs
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.csproj.CoreCompileInputs.cache
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.csproj.CopyComplete
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\ref\PayRoll.Aplication.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.2 Aplication\PayRoll.Aplication.DTO\obj\Debug\net5.0\PayRoll.Aplication.pdb
