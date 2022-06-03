@@ -4,7 +4,7 @@ using PayRoll.Domain.Interfaces;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using PayRoll.CrossCutting.Common.Services;
+using PayRoll.CrossCutting.Common.Interfaces;
 using Microsoft.Extensions.Logging;
 using PayRoll.Domain.Entities;
 using PayRoll.CrossCutting.Common.Models;

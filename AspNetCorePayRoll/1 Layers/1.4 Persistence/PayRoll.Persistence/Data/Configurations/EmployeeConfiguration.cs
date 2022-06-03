@@ -103,6 +103,25 @@ namespace PayRoll.Persistence.Data.Configurations
                 .HasMaxLength(150)
                 .IsUnicode(false)
                 .HasColumnName("employee_Surname");
+            //
+
+            builder.Property(e => e.Id)
+                .HasColumnType("int");
+
+            builder.Property(e => e.CreatedBy)
+                .HasColumnType("nvarchar(max)");
+
+            builder.Property(e => e.CreatedDate)
+                .HasColumnType("datetime2");
+
+            builder.Property(e => e.LastModifiedBy)
+                .HasColumnType("nvarchar(max)");
+
+            builder.Property(e => e.LastModifiedDate)
+                .HasColumnType("datetime2");
+
+            //
+
 
             builder.Property(e => e.PlaceId).HasColumnName("Place_ID");
 

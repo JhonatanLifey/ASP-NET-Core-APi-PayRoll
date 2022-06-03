@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using PayRoll.Domain.Common;
 using PayRoll.Domain.Entities;
 using PayRoll.Persistence.Data.Configurations;
 
@@ -39,7 +42,29 @@ namespace PayRoll.Persistence.Data
         public virtual DbSet<PayRollProvisionHoliday> PayRollProvisionHolidays { get; set; }
         public virtual DbSet<PayRollRol> PayRollRols { get; set; }
         public virtual DbSet<Tabla> Tablas { get; set; }
-        
+
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+
+            foreach (var entry in ChangeTracker.Entries<EntityBase>())
+            {
+                switch (entry.State)
+                {
+                    case EntityState.Added:
+                        entry.Entity.CreatedDate = DateTime.Now;
+                        entry.Entity.CreatedBy = "swn";
+                        break;
+                    case EntityState.Modified:
+                        entry.Entity.LastModifiedDate = DateTime.Now;
+                        entry.Entity.LastModifiedBy = "swn";
+                        break;
+                }
+            }
+
+            return base.SaveChangesAsync(cancellationToken);
+        }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

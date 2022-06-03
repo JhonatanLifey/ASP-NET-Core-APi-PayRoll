@@ -2,6 +2,7 @@ F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructu
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Globalization\bin\Debug\net5.0\PayRoll.CrossCutting.Globalization.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Globalization\bin\Debug\net5.0\ref\PayRoll.CrossCutting.Globalization.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Globalization\bin\Debug\net5.0\PayRoll.CrossCutting.Globalization.pdb
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Globalization\obj\Debug\net5.0\PayRoll.CrossCutting.Globalization.csproj.AssemblyReference.cache
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Globalization\obj\Debug\net5.0\PayRoll.CrossCutting.Globalization.ResourceMessageError.resources
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Globalization\obj\Debug\net5.0\PayRoll.CrossCutting.Globalization.ResourceMessageValidation.resources
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.5 Infrastructure\CrossCutting\PayRoll.CrossCutting.Globalization\obj\Debug\net5.0\PayRoll.CrossCutting.Globalization.csproj.GenerateResource.cache

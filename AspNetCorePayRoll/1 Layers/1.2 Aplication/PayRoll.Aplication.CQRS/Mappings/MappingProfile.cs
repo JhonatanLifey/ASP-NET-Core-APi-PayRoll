@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
 using PayRoll.Aplication.CQRS.Features.Employees.Commands.SaveEmployee;
-using PayRoll.Aplication.CQRS.Features.Employees.Commands.Update;
-using PayRoll.Aplication.CQRS.Features.Employees.Queries.GetEmployeesList;
+using PayRoll.Aplication.CQRS.Features.Employees.Commands.UpdateEmployee;
+using PayRoll.Aplication.CQRS.Features.Employees.Queries.GetEmployeeByCompanyIdEmployeeId;
+using PayRoll.Aplication.CQRS.Features.Employees.Queries.GetEmployeesByCompany;
 using PayRoll.Domain.Entities;
 
 namespace PayRoll.Aplication.CQRS.Mappings
@@ -13,6 +14,7 @@ namespace PayRoll.Aplication.CQRS.Mappings
             CreateMap<Employee, EmployeesVm>().ReverseMap();
             CreateMap<Employee, SaveEmployeeCommand>().ReverseMap();
             CreateMap<Employee, UpdateEmployeeCommand>().ReverseMap();
+            CreateMap<Employee, EmployeeVm>().ReverseMap();
         }
     }
 }

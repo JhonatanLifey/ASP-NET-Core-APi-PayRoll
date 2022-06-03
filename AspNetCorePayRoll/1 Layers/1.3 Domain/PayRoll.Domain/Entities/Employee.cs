@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace PayRoll.Domain.Entities
 {
-    public partial class Employee: EntityBase
+    public class Employee: EntityBase
 
     {
         public int CompanyId { get; set; }
@@ -31,5 +31,7 @@ namespace PayRoll.Domain.Entities
         public string EmployeeKindAfpsnp { get; set; }
         public string EmployeeNumberAfp { get; set; }
         public string EmployeeIndAsigFamiliar { get; set; }
+
+
     }
 }

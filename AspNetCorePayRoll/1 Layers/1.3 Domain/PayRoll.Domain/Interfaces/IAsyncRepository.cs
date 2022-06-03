@@ -1,11 +1,11 @@
-﻿using System;
+﻿using PayRoll.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace PayRoll.Domain.Common
+namespace PayRoll.Domain.Interfaces
 {
     public interface IAsyncRepository<T> where T : EntityBase
     {

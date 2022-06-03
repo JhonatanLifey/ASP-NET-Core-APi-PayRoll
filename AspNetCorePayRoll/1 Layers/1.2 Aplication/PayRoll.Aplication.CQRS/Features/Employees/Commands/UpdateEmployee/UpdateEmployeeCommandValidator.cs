@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace PayRoll.Aplication.CQRS.Features.Employees.Commands.Update
+namespace PayRoll.Aplication.CQRS.Features.Employees.Commands.UpdateEmployee
 {
     public class UpdateEmployeeCommandValidator : AbstractValidator<UpdateEmployeeCommand>
     {

@@ -88,6 +88,7 @@ F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\2 Tests\2.2 UnitIntegrati
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\2 Tests\2.2 UnitIntegration\PayRoll.IntegrationTest\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\2 Tests\2.2 UnitIntegration\PayRoll.IntegrationTest\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\2 Tests\2.2 UnitIntegration\PayRoll.IntegrationTest\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\2 Tests\2.2 UnitIntegration\PayRoll.IntegrationTest\obj\Debug\net5.0\PayRoll.IntegrationTest.csproj.AssemblyReference.cache
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\2 Tests\2.2 UnitIntegration\PayRoll.IntegrationTest\obj\Debug\net5.0\PayRoll.IntegrationTest.GeneratedMSBuildEditorConfig.editorconfig
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\2 Tests\2.2 UnitIntegration\PayRoll.IntegrationTest\obj\Debug\net5.0\PayRoll.IntegrationTest.AssemblyInfoInputs.cache
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\2 Tests\2.2 UnitIntegration\PayRoll.IntegrationTest\obj\Debug\net5.0\PayRoll.IntegrationTest.AssemblyInfo.cs

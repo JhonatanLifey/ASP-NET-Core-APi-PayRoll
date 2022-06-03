@@ -6,25 +6,23 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace PayRoll.Persistence.Repositories
 {
-    public class EmployeeRepository: IEmployeeRepository
+    public class EmployeeRepository: RepositoryBase<Employee> , IEmployeeRepository
     {
 
-        private readonly DB_PayRollContext _context;
-
-        public EmployeeRepository(DB_PayRollContext context)
+                
+        public EmployeeRepository(DB_PayRollContext dbContext) : base(dbContext)
         {
-            _context = context;
+
         }
 
         public async Task<IEnumerable<Employee>> GetEmployees() 
         {
 
-            var employees = await _context.Employees.ToListAsync();
+            var employees = await _dbContext.Employees.ToListAsync();
             
             return employees;
         }
@@ -33,7 +31,7 @@ namespace PayRoll.Persistence.Repositories
         public async Task<Employee> GetEmployeeByID(int id)
         {
 
-            var employee = await _context.Employees.FirstOrDefaultAsync(x => x.EmployeeId == id);
+            var employee = await _dbContext.Employees.FirstOrDefaultAsync(x => x.EmployeeId == id);
 
             return employee;
         }
@@ -41,13 +39,13 @@ namespace PayRoll.Persistence.Repositories
         public async Task<IEnumerable<Employee>> GetEmployeesByCompany(int id)
         {
 
-            var employee = await _context.Employees.Where(x => x.CompanyId == id).ToListAsync();
+            var employee = await _dbContext.Employees.Where(x => x.CompanyId == id).ToListAsync();
 
             return employee;
         }
         public async Task<Employee> GetEmployeeByCompanyIdEmployeeId(int CompanyId, int EmployeeId)
         {
-            var employee = await _context.Employees.FirstOrDefaultAsync(x => x.CompanyId == CompanyId && x.EmployeeId == EmployeeId);
+            var employee = await _dbContext.Employees.FirstOrDefaultAsync(x => x.CompanyId == CompanyId && x.EmployeeId == EmployeeId);
 
             return employee;
         }

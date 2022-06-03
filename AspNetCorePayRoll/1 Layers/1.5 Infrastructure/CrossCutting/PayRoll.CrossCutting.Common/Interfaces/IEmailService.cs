@@ -1,7 +1,7 @@
 ﻿using PayRoll.CrossCutting.Common.Models;
 using System.Threading.Tasks;
 
-namespace PayRoll.CrossCutting.Common.Services
+namespace PayRoll.CrossCutting.Common.Interfaces
 {
     public interface IEmailService
     {

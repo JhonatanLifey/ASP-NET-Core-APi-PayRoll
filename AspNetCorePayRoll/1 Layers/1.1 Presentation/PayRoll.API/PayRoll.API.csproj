@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\1.2 Aplication\PayRoll.Aplication.CQRS\PayRoll.Aplication.CQRS.csproj" />
-    <ProjectReference Include="..\..\1.2 Aplication\PayRoll.Aplication.DTO\PayRoll.Aplication.DTO.csproj" />
     <ProjectReference Include="..\..\1.4 Persistence\PayRoll.Persistence\PayRoll.Persistence.csproj" />
   </ItemGroup>
 

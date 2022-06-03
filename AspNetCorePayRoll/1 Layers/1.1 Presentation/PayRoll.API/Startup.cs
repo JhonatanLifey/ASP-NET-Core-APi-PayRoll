@@ -5,7 +5,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using PayRoll.Aplication.CQRS;
 using PayRoll.Domain.Interfaces;
+using PayRoll.Persistence;
 using PayRoll.Persistence.Data;
 using PayRoll.Persistence.Repositories;
 
@@ -23,11 +25,14 @@ namespace PayRoll.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddApplicationServices();
+            services.AddPersistenceServices(Configuration);
+                     
+
             services.AddControllers();
 
-
-            services.AddDbContext<DB_PayRollContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DBPayRoll")));
+//            services.AddDbContext<DB_PayRollContext>(options =>
+  //              options.UseSqlServer(Configuration.GetConnectionString("DBPayRoll")));
 
 
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();

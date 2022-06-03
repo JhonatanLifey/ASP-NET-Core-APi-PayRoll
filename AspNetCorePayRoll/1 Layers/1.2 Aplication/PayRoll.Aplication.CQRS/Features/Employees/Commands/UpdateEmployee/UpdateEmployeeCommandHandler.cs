@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace PayRoll.Aplication.CQRS.Features.Employees.Commands.Update
+namespace PayRoll.Aplication.CQRS.Features.Employees.Commands.UpdateEmployee
 {
     public class UpdateEmployeeCommandHandler : IRequestHandler<UpdateEmployeeCommand>
     {

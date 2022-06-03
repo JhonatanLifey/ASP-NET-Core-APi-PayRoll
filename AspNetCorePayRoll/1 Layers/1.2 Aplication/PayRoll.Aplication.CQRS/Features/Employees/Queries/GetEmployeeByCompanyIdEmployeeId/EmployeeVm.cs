@@ -1,8 +1,9 @@
-﻿using System;
+﻿using MediatR;
+using System;
 
-namespace PayRoll.Aplication.CQRS.Features.Employees.Queries.GetEmployeesList
+namespace PayRoll.Aplication.CQRS.Features.Employees.Queries.GetEmployeeByCompanyIdEmployeeId
 {
-    public class EmployeesVm
+    public class EmployeeVm : IRequest
     {
         public int CompanyId { get; set; }
         public int? AfpId { get; set; }

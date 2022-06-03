@@ -4,8 +4,10 @@ F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\bin\Debug\net5.0\PayRoll.Persistence.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\bin\Debug\net5.0\ref\PayRoll.Persistence.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\bin\Debug\net5.0\PayRoll.Persistence.pdb
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\bin\Debug\net5.0\PayRoll.CrossCutting.Common.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\bin\Debug\net5.0\PayRoll.Domain.dll
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\bin\Debug\net5.0\PayRoll.Domain.pdb
+F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\bin\Debug\net5.0\PayRoll.CrossCutting.Common.pdb
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\obj\Debug\net5.0\PayRoll.Persistence.csproj.AssemblyReference.cache
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\obj\Debug\net5.0\PayRoll.Persistence.GeneratedMSBuildEditorConfig.editorconfig
 F:\Hp\D\Programmer\Integrado\PayRoll\AspNetCorePayRoll\1 Layers\1.4 Persistence\PayRoll.Persistence\obj\Debug\net5.0\PayRoll.Persistence.AssemblyInfoInputs.cache
